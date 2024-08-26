@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Cairo", sans-serif;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    background-position: 10px;
+    backdrop-filter: blur(10px);
+}
+
+header {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #fff;
+}
+
+.navbar img {
+    width: 240px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 19px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 17px; 
+    transition: color 0.5s ease, transform 0.5s ease; /* تأثير الانتقال */
+
+}
+
+nav ul li a:hover {
+    color: #00DBCE;
+
+}
+
+.background-image-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+
+    backdrop-filter: none;
+    z-index: 1; 
+}
+.buttons {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.grades {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.grade-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.grade-card h2 {
+    margin-bottom: 10px;
+}
+
+.terms {
+    list-style: none;
+    margin-top: 10px;
+    display: none;
+    font-family: 'Lalezar', cursive; 
+    
+    
+}
+
+.grade-card.active .terms {
+    display: block;
+}
+
+.terms li {
+    cursor: pointer;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 8px 15px;
+    background-color: #000000;
+    color: #dbdbdb;
+    
+    
+
+}
+
+.terms li:hover {
+    background-color: #00DBCE;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 45%;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.5s ease, transform 0.5s ease; /* تأثير الانتقال */
+
+}
+
+.footer-links a:hover {
+    color: #00DBCE;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center; /* Center logo on mobile */
+    }
+
+    .navbar img {
+        margin: 0 auto;
+    }
+
+    .grades {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grade-card {
+        width: 80%;
+    }
+
+    .feature-card {
+        width: 100%;
+    }
+}
+
+.background-image {
+position: relative;
+background-image: url('image .jpg'); /* Update this path to your image */
+background-size: cover;
+background-position: center;
+height: 400px; /* Adjust height as needed */
+filter: blur(1px);
+box-shadow: inset 10px 0 15px rgba(0, 0, 0, 0.5);
+}
+
+
+.background-image-content {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: #000000;
+text-align: center;
+padding: 20px;
+backdrop-filter: none; /* Ensure text is not affected by blur */
+}
+
+.background-image-content h1,
+.background-image-content p {
+margin: 10px 0;
+}
+
+.buttons {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.feature-card2 {
+background-color: #ffffff;
+border-radius: 50px;
+padding: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+text-align: center;
+width: 20%;
+transition: transform 0.3s ease;
+margin-bottom: 20px;
+margin-top: 50px;
+position: relative; /* Added for icon positioning */
+}
+
+.feature-card2 i {
+font-size: 4rem; /* Icon size */
+color: #00DBCE; /* Icon color */
+display: block;
+margin: 0 auto 10px; /* Center icon and add space below */
+}
+
+.feature-card2 h3 {
+margin: 0;
+font-size: 1.5rem;
+}
+
+.feature-card2 p {
+margin-top: 10px;
+font-size: 1rem;
+color: #666;
+}
+@media (max-width: 768px) {
+.feature-card2 {
+width: 100%; /* اجعل العرض 100% ليتناسب مع الشاشات الصغيرة */
+margin-top: 10px; /* قلل من المسافة العلوية */
+}
+}
+
+.card {
+background: #fff;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+padding: 20px;
+text-align: center;
+width: 300px;
+min-height: 80vh; /* Ensure enough height for the card */
+display: flex;
+flex-direction: column; /* Arrange items vertically */
+justify-content: center; /* Center content vertically */
+align-items: center; /* Center content horizontally */
+gap: 20px; /* Spacing between elements */
+margin: 0 auto; /* Center the card horizontally */
+margin-top: 35px;
+}
+
+.card h2 {
+margin: 0 0 10px;
+font-size: 1.5em;
+}
+
+.price {
+font-size: 1.2em;
+color: #333;
+margin: 10px 0;
+}
+
+.features {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+.features li {
+margin: 10px 0;
+}
+
+.btn {
+background-color: #00DBCE;
+border: none;
+border-radius: 5px;
+color: #fff;
+cursor: pointer;
+font-size: 1em;
+padding: 10px 20px;
+text-transform: uppercase;
+transition: background-color 0.3s ease;
+text-decoration: none; /* إزالة التسطير من الرابط */
+
+}
+
+.btn:hover {
+background-color: #04615b;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+.card {
+width: 80%;
+margin: 20px auto; /* Center horizontally and add margin */
+
+}
+}
+
+
+
+.shtp{
+
+
+    text-decoration: line-through;
+    color: rgb(189, 23, 23); /* يمكن تغيير اللون حسب الحاجة */
+
+
+}
+.time-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 25px 25px;
+    font-family: "Fustat", sans-serif;
+}
+
+.time {
+    font-size: 2rem;
+    color: #000;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+.time-container {
+padding: 10px; /* Adjust padding for mobile */
+font-size: 14px; /* Adjust font size for mobile */
+}
+
+.time {
+font-size: 14px; /* Smaller font size for mobile */
+}
+}
+
+
+.footer-logo {
+text-align: center; /* توسيط العنصر داخل الفوتر */
+margin-top: 20px; /* هامش للأعلى لتباعد بين الروابط والصورة */
+}
+
+.footer-logo img {
+width: 100px; /* تعديل عرض الصورة حسب الحاجة */
+height: auto; /* الارتفاع التلقائي بناءً على العرض */
+border-radius: 50%; /* تدوير الصورة لتكون دائرية */
+transition: transform 0.3s ease; /* تأثير عند التحويل */
+}
+
+.footer-logo img:hover {
+transform: scale(1.1); /* تكبير الصورة عند التحويل */
+}
+.faq-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.faq-item:last-child {
+    border-bottom: none;
+}
+
+.faq-question {
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 0;
+    padding: 10px;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    background-color: #00DBCE;
+}
+
+
+
+.faq-answer {
+    display: none;
+    padding: 10px;
+    font-size: 1em;
+
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.faq-answer.show {
+    display: block;
+}
+
+#backToTop {
+position: fixed;
+bottom: 50px;
+right: 20px;
+display: none;
+background-color: #00DBCE;
+color: white;
+border: none;
+border-radius: 50px;
+padding: 10px;
+cursor: pointer;
+font-size: 25px;
+}
+
+#backToTop:hover {
+background-color: #008179;
+}
+
+#logoImage {
+    -webkit-user-drag: none; /* خاصية لتعطيل السحب في متصفح Chrome وSafari */
+}

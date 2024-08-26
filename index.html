@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="stylesheet" href="ishraq.css">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<meta name="description" content="موقع إشراق التعليمي يقدم محتوى تعليمي مميز ومُنظم بأسعار مناسبة. نحن نوفر شروحات للصفوف الإعدادية من أفضل المدرسين بأسلوب سهل ومباشر. مع دعم فني متواصل وتوفير مراجعات ومواد دراسية عبر قنوات متعددة، نحن هنا لمساعدتك على تحقيق أفضل نتائج دراسية بأقل تكلفة ممكنة.">
+    <link rel="icon" href="icon Browser.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Changa:wght@200..800&family=Fustat:wght@200..800&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic&display=swap"> <!-- Google Font for nav -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"> <!-- Google Font for nav -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap">
+    <title>موقع إشراق التعليمي</title>
+</head>
+
+<body>
+    <header>
+
+        
+        <div class="navbar">
+            <img src="ishraq.png"  id="logoImage"   alt="إشراق التعليمي" onclick="redirectToHomePage()">
+        </div>
+        <div class="time-container">
+            <span class="time" id="clock">12:00 AM</span>
+        </div>
+    </div>
+ 
+    
+
+    </header>
+
+
+    <div class="background-image">
+        <div class="background-image-content">
+            <h1>مرحبًا بكم في موقع إشراق التعليمي </h1>
+            <p>نقدم أفضل المحتويات التعليمية بشكل سهل ومباشر.</p>
+        </div>
+        
+    </div>
+    <button id="backToTop" title="العودة إلى الأعلى">&#8679;</button>
+
+    
+
+    <main>
+        <section class="grades">
+            <div class="grade-card" onclick="toggleTerms(this)">
+                <h2>الصف الأول الإعدادي</h2>
+                <ul class="terms">
+                    <li onclick="navigateTo('اولي اعدادي الترم الاول.html')">الترم الأول</li>
+                    <li onclick="navigateTo('اولي اعدادي الترم التاني.html')">الترم الثاني</li>
+                </ul>
+            </div>
+            <div class="grade-card" onclick="toggleTerms(this)">
+                <h2>الصف الثاني الإعدادي</h2>
+                <ul class="terms">
+                    <li onclick="navigateTo('تانيه اعدادي الترم الاول.html')">الترم الأول</li>
+                    <li onclick="navigateTo('تانيه اعدادي الترم التاني.html')">الترم الثاني</li>
+                </ul>
+            </div>
+            <div class="grade-card" onclick="toggleTerms(this)">
+                <h2>الصف الثالث الإعدادي</h2>
+                <ul class="terms">
+                    <li onclick="navigateTo('تالته اعدادي الترم الاول.html')">الترم الأول</li>
+                    <li onclick="navigateTo('تالته اعدادي الترم التاني.html')">الترم الثاني</li>
+                </ul>
+            </div>
+        </section>
+
+
+
+        <section class="features">
+            <div class="feature-card">
+                <h3>أيام الامتحانات</h3>
+                <p>نقوم بإضافة مراجعات ليلية قبل الامتحانات على الموقع لضمان تحضير الطلاب بشكل جيد.</p>
+                <p>كما نوفر مراجعات بصيغة PDF وامتحانات سابقة عبر قنوات التليجرام والواتساب لمزيد من الدعم والتحضير.</p>                
+            </div>
+            <div class="feature-card">
+                <h3>شرح الموقع</h3>
+                <p>أضفنا محتوى الصف الأول والثاني والثالث الإعدادي من أفضل المدرسين على يوتيوب، بناءً على إحصائيات من موقعنا، واخترنا الأفضل في شرح المواد التعليمية .</p>
+                <p>يهدف موقعنا إلى تقليل العبء المالي على الأسر من خلال توفير شرح شامل للمناهج، مما يتيح الاعتماد الكامل على محتوى موقعنا بدلاً من المصاريف الدراسية الإضافية.</p>                
+            </div>
+            <div class="feature-card">
+                <h3>معلومات عن المصاريف</h3>
+                <p>يُعد موقعنا من بين الأرخص والأفضل والأكثر سهولة في تقديم الخدمات التعليمية في مصر.</p>
+                <p>نقدم خدمات تعليمية من خلال باقات شهرية، وباقات الترم، والباقات السنوية لتلبية احتياجات الطلاب المختلفة.</p>                
+            </div>
+            <div class="feature-card">
+                <h3>جدول الموقع</h3>
+                <p>للاستفادة الكاملة من محتوى موقعنا دون الحاجة إلى سناتر أو دروس خصوصية، يرجى التواصل مع دعم الموقع وطلب الحصول على جدول المذاكرة.</p>
+                <p>يشتمل الجدول على نظام متكامل للمذاكرة يضمن الانتهاء من دراسة جميع المواد قبل نهاية الفصل الدراسي.</p>                
+            </div>
+                <div class="feature-card2">
+                    <i class="fas fa-question-circle"></i>
+                    <h3>استفسارات</h3>
+                    <p>احصل على إجابات لأسئلتك واستفساراتك بسرعة وسهولة.</p>
+                </div>
+                <div class="feature-card2">
+                    <i class="fas fa-lock"></i>
+                    <h3>حماية البيانات</h3>
+                    <p>نحرص على تأمين بياناتك وحمايتها وفق أعلى معايير الأمان، ولا نطلب منك تسجيل بياناتك للحفاظ على خصوصية معلوماتك.</p>
+                </div>
+                <div class="feature-card2">
+                    <i class="fas fa-headset"></i>
+                    <h3>دعم متواصل</h3>
+                    <p>نقدم دعمًا فنيًا متواصلًا لضمان تجربة تعليمية مريحة وسلسة.</p>
+                </div>
+                <div class="feature-card2">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h3>تكلفة منخفضة</h3>
+                    <p>استمتع بأفضل الخدمات التعليمية بأقل تكلفة ممكنة.</p>
+                </div>
+            <div class="card">
+            <h2>الباقة الشهرية</h2>
+            <p class="price">100 ج.م</p>
+            <ul class="features">
+                <li>دخول غير محدود للمحتوى</li>
+                <li>دعم فني يومين في الاسبوع (الجمعة.الإثنين)</li>
+                <li  class="shtp">إمكانية الوصول لإسأل في المنهج</li>
+                <li  class="shtp">خصم على الباقة الشهرية </li>
+                <li  class="shtp">عندما تحقق النجاح، سيكون موقعنا جاهزًا لتقديم شهادة تقدير مخصصة لك، احتفالاً بإنجازك</li>
+
+
+            </ul>
+            <a href="https://wa.me/+201096068254" class="btn">اشترِك الآن</a>
+        </div>
+
+        <div class="card">
+            <h2>باقة الترم</h2>
+            <p class="price">400 ج.م</p>
+            <ul class="features">
+                <li>دخول غير محدود للمحتوى</li>
+                <li>دعم فني ثلاث أيام (الجمعة.الإثنين.الأربعاء)</li>
+                <li>إمكانية الوصول لإسأل في المنهج</li>
+                <li  class="shtp">خصم على باقة الترم </li>
+                <li>عندما تحقق النجاح، سيكون موقعنا جاهزًا لتقديم شهادة تقدير مخصصة لك، احتفالاً بإنجازك</li>
+
+
+
+            </ul>
+            <a href="https://wa.me/+201096068254" class="btn">اشترِك الآن</a>
+        </div>
+
+        <div class="card">
+            <h2>الباقة السنوية</h2>
+            <p class="price">900 ج.م</p>
+            <ul class="features">
+                <li>دخول غير محدود للمحتوى</li>
+                <li>دعم فني طوال الأسبوع</li>
+                <li>إمكانية الوصول لإسأل في المنهج</li>
+                <li>خصم على الباقة السنوية </li>
+                <li>عندما تحقق النجاح، سيكون موقعنا جاهزًا لتقديم شهادة تقدير مخصصة لك، احتفالاً بإنجازك</li>
+            </ul>
+            <a href="https://wa.me/+201096068254" class="btn">اشترِك الآن</a>
+        </div>
+    </div>
+        </section>
+        
+
+
+
+
+
+
+
+        <main>
+            <!-- Other sections here -->
+            <section class="faq-section">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">لماذا إشراق ؟</button>
+                    <div class="faq-answer">
+                        <p>موقعنا يُعد من المواقع الفريدة في حماية بيانات المستخدمين، حيث لا نقوم بجمع أي بيانات شخصية. كما يُعتبر موقعنا الأول في الوطن العربي من حيث التنسيق والترتيب في المناهج الدراسية.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">ما هي طرق الدفع المتاحة؟</button>
+                    <div class="faq-answer">
+                        <p>نقبل الدفع بواسطة فودافون كاش وعند إضافة طرق أخرى سيتم تحديث الموقع.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">كيف يمكنني التواصل مع خدمة العملاء؟</button>
+                    <div class="faq-answer">
+                        <p>يمكنك التواصل مع خدمة العملاء عبر البريد الإلكتروني أو من خلال النموذج المتاح على موقعنا.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">كيف يمكنني التواصل مع خدمة العملاء للحصول على شهادة تقدير؟</button>
+                    <div class="faq-answer">
+                        <p>يمكنك التواصل مع خدمة العملاء عبر البريد الإلكتروني أو من خلال النموذج المتاح في صفحة "اتصل بنا" على موقعنا.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">هل إشراق مخصص للمرحلة الإعدادية فقط؟</button>
+                    <div class="faq-answer">
+                        <p>لا، موقع إشراق ليس مخصصًا للمرحلة الإعدادية فقط. حاليًا، تعمل إدارة موقع إشراق على تطوير موقع خاص للمرحلة الثانوية. سنقوم بإبلاغكم فور الانتهاء من تطوير الموقع الجديد للمرحلة الثانوية.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer(this)">هل يوفر إشراق خاصية استرداد الأموال؟</button>
+                    <div class="faq-answer">
+                        <p>لا، إشراق لا يدعم خاصية استرداد الأموال.</p>
+                    </div>
+                </div>                
+            </section>
+            
+            
+        </main>
+
+
+
+        
+    </main>
+
+    <footer>
+        <ul class="footer-links">
+            <li><a href="اتصل بنا.html">اتصل بنا</a></li>
+            <li><a href="شروط الاستخدام.html">شروط الاستخدام</a></li>
+            <li><a href="سياسة الخصوصيه.html">سياسة الخصوصية</a></li>
+            <li><a href="إسأل في المنهج.html">إسأل في المنهج</a></li>
+            <li><a href="https://wa.me/+201096068254">اطلب كود الاشتراك</a></li>
+            <div class="footer-logo">
+                <a href="https://www.facebook.com/profile.php?id=61563115783646" target="_blank">
+                    <img src="rap.jpg" alt="صفحتنا على الفيسبوك">
+                </a>
+
+        </ul>
+        <div class="copyright">
+            &copy; 2024 موقع إشراق التعليمي. جميع الحقوق محفوظة.
+        </div>
+    </footer>
+
+
+    <script>
+
+// الحصول على عنصر الزر
+const backToTopButton = document.getElementById('backToTop');
+
+// إظهار الزر عند التمرير لأسفل
+window.onscroll = function() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        backToTopButton.style.display = 'block';
+    } else {
+        backToTopButton.style.display = 'none';
+    }
+};
+
+// العودة إلى الأعلى عند النقر على الزر
+backToTopButton.onclick = function() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+};
+
+
+
+
+
+
+
+        function toggleTerms(element) {
+            const termsList = element.querySelector('.terms');
+            termsList.style.display = (termsList.style.display === 'block') ? 'none' : 'block';
+        }
+
+        function navigateTo(url) {
+            window.location.href = url;
+        }
+
+        function redirectToHomePage() {
+            window.location.href = 'ishraq.html'; 
+        }
+    </script>
+        <script>
+            document.addEventListener('contextmenu', function(e) {
+                e.preventDefault();
+            });
+    
+            document.onkeydown = function(e) {
+                if (e.keyCode == 123 || // Prevent F12
+                    (e.ctrlKey && e.shiftKey && e.keyCode == 73) || // Prevent Ctrl+Shift+I
+                    (e.ctrlKey && e.shiftKey && e.keyCode == 74) || // Prevent Ctrl+Shift+J
+                    (e.ctrlKey && e.keyCode == 85) || // Prevent Ctrl+U
+                    (e.ctrlKey && e.keyCode == 83) || // Prevent Ctrl+S
+                    (e.ctrlKey && e.keyCode == 67)) { // Prevent Ctrl+C
+                    return false;
+                }
+            };
+    
+            document.addEventListener('keydown', function(e) {
+                if (e.key === "PrintScreen") {
+                    alert("Screenshots are disabled!");
+                    return false;
+                } else if (e.ctrlKey && e.key === "PrintScreen") {
+                    alert("Screenshots are disabled!");
+                    return false;
+                } else if (e.altKey && e.key === "PrintScreen") {
+                    alert("Screenshots are disabled!");
+                    return false;
+                }
+            });
+    
+            document.addEventListener('mousedown', function(e) {
+                if (e.button == 2) {
+                    e.preventDefault();
+                }
+            });
+    
+            window.addEventListener('popstate', function(e) {
+                history.pushState(null, null, location.href);
+            });
+            
+            window.addEventListener('load', function() {
+                history.pushState(null, null, location.href);
+                window.onpopstate = function() {
+                    history.go(1);
+                };
+            });
+
+            function toggleTerms(element) {
+            var cards = document.querySelectorAll('.grade-card');
+            cards.forEach(function(card) {
+                if (card !== element) {
+                    card.classList.remove('active');
+                }
+            });
+            element.classList.toggle('active');
+        }
+
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            var icons = document.querySelector('.social-icons');
+            icons.style.display = icons.style.display === 'flex' ? 'none' : 'flex';
+        });
+
+        
+    
+
+        
+        </script>
+          <script>
+        function updateClock() {
+            // الحصول على الوقت الحالي في التوقيت المحلي لمصر
+            const now = new Date();
+            const options = { 
+                timeZone: 'Africa/Cairo', 
+                hour: '2-digit', 
+                minute: '2-digit', 
+                second: '2-digit', 
+                hour12: true 
+            };
+            const timeString = now.toLocaleTimeString('ar-EG', options);
+
+            // تحديث الوقت في العنصر
+            document.getElementById('clock').textContent = timeString;
+        }
+
+        // تحديث الساعة كل ثانية
+        setInterval(updateClock, 1000);
+
+        // تحديث الساعة عند تحميل الصفحة
+        updateClock();
+    </script>
+
+<script>
+    function toggleAnswer(button) {
+        const answer = button.nextElementSibling;
+        if (answer.classList.contains('show')) {
+            answer.classList.remove('show');
+        } else {
+            const allAnswers = document.querySelectorAll('.faq-answer');
+            allAnswers.forEach(ans => ans.classList.remove('show'));
+            answer.classList.add('show');
+        }
+    }
+
+    // تعطيل السحب باستخدام JavaScript
+document.getElementById("logoImage").ondragstart = function() {
+    return false;
+};
+
+    
+</script>
+
+        
+</body>
+
+</html>

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رياضيات</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-N... (التوقيع الرقمي)" crossorigin="anonymous" />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Aref+Ruqaa:wght@400;700&family=Rakkas&family=Reem+Kufi:wght@400..700&display=swap');
+
+        .home-icon {
+            color: #00DBCE; 
+            font-size: 50px; 
+            text-decoration: none; 
+            margin-right: 20px; 
+        }
+
+        body {
+            font-family: "Amiri", serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .header a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .header .home-icon {
+            font-size: 20px;
+            margin-right: 10px;
+        }
+
+        .subject-container {
+            width: 80%;
+            max-width: 800px;
+            margin: 20px auto;
+            background: #cdd5d8;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .lesson {
+            margin: 20px 0;
+        }
+
+        .lesson-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%; 
+            overflow: hidden;
+            max-width: 100%;
+            margin: 0 auto; 
+        }
+
+        .iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0; 
+        }
+
+        #videoContainer {
+            display: none; 
+        }
+
+        .form-container {
+            margin: 20px;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .subject-container {
+                width: 90%; 
+            }
+        }
+
+        @media (max-width: 480px) {
+            .lesson-title {
+                font-size: 20px;
+            }
+        }
+        .form-container input[type="text"] {
+    width: calc(100% - 100px); 
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 50px; 
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    margin: 5px;
+}
+
+.form-container button {
+    width: 100px; 
+    padding: 10px;
+    background-color: #00DBCE;
+    color: #fff;
+    border: none;
+    border-radius: 50px; 
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.form-container button:hover {
+    background-color: #00b3a7; 
+}
+
+
+    </style>
+</head>
+<a href="ishraq.html" class="home-icon">
+    <i class="fa fa-home" aria-hidden="true"></i>
+</a>
+
+<main class="subject-container">
+    <div class="form-container" id="accessFormContainer">
+        <h2>أدخل كودالاشتراك</h2>
+        <form id="accessForm">
+            <input type="text" id="accessCode" placeholder="Enter your code">
+            <button type="submit">إدخال</button>
+        </form>
+        <p id="errorMessage" style="color: red; display: none;">كود الإشتراك غير صحيح. يرجى إعادة المحاولة.</p>
+    </div>
+<body>
+
+    <div id="videoContainer">
+        <h1>رياضيات</h1>
+
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الأول</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/kxWUz7jWszU?" title="رياضيات ثانية اعدادي | مراجعة قبلية جبر الترم الاول | حل تمارين الكتاب المدرسى" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الثاني</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/-U7tA0yQ65Q?" title="جبر الصف الثاني الاعدادي الترم الاول الدرس الاول الجذر التكعيبي للعدد النسبي | حصة 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+    
+        </div><div class="lesson">
+            <h2 class="lesson-title">الدرس الثالث</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/hp0X8ith6UU?" title="حل تمارين الكتاب المدرسي  تمارين 1 -1 الجذر التكعيبي للصف الثاني الاعدادي جبر الترم الاول" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الرابع</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/ioHGvBCTNDw?" title="مجموعة الاعداد غير النسبية للصف الثاني الاعدادي جبر الترم الاول | حصة 4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الخامس</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/31DIsZo8Qyc?" title="ايجاد قيمة تقريبية للعدد غير النسبي للصف الثاني الاعدادي جبر الترم الاول | حصة 5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس السادس</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/yuhbyWZKTYM?" title="تمثيل العدد الغير نسبي على خط الاعداد للصف الثاني الاعدادي جبر الترم الاول حصة 6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس السابع</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/MZBlRjFgbzs?" title="مجموعة الاعداد الحقيقية + علاقة الترتيب في ح للصف الثاني الاعدادي جبر الترم الاول حصة 7" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الثامن</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/3q0wF5Qjbko?" title="الفترات + تمهيد العمليات على الفترات للصف الثاني الاعدادي جبر الترم الاول حصة 8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div><div class="lesson">
+            <h2 class="lesson-title">الدرس التاسع</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/q73UY2wG4FI?" title="العمليات على الفترات للصف الثاني الاعدادي جبر الترم الاول حصة 9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس العاشر</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/DruY4RoPtSg?" title="العمليات على الاعداد الحقيقية للصف الثاني الاعدادي جبر الترم الاول |  حصة 10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الحادي عشر</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/47c1ZMWnisA?" title="العمليات على الجذور التربيعية للصف الثاني الاعدادي جبر الترم الاول حصة 12" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الثاني عشر</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/i_qu-b2WRo4?" title="العمليات على الجذور التكعيبية للصف الثاني الاعدادي جبر الترم الاول حصة 13" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الثالث عشر</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/4Shv7FZtf80?" title="العددان المترافقان للصف الثاني الاعدادي جبر الترم الاول حصة 14" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الرابع عشر</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/RqEOHGwZC1s?" title="تطبيقات على الاعداد الحقيقية | المكعب و متوازي المستطيلات للصف الثاني الاعدادي جبر الترم الاول" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الخامس عشر</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/fkU3CIMl7nA?" title="تطبيقات على الاعداد الحقيقية ح | الدائرة و الكرة للصف الثاني الاعدادي جبر الترم الاول حصة 16" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس السادس عشر</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/a-uElomZWPY?" title="تطبيقات على الاعداد الحقيقية ح | الاسطوانة الدائرية للصف الثاني الاعدادي جبر الترم الاول حصة 17" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس السابع عشر</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/dxojm39GDZA?" title="حل المعادلات والمتباينات في ح للصف الثاني الاعدادي جبر الترم الاول حصة 18" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الثامن عشر</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/UEpGE_lGMUo?" title="العلاقة بين متغيرين للصف الثاني الاعدادي جبر الترم الاول حصة 20" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس التاسع عشر</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/bk7DcNoKb4E?" title="ميل الخط المستقيم جبر للصف الثاني الاعدادي الترم الاول حصة 21" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس العشرون</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/Std_3_yjw7k?" title="تطبيقات حياتية على ميل الخط المستقيم جبر للصف الثاني الاعدادي الترم الاول حصة 22" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الواحد والعشرون</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/aLNXwobBy5U?" title="تمثيل الوسيط والمنوال بيانيا الاحصاء للصف الثاني الاعدادي الترم الاول حصة 23" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الثاني والعشرون</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/wpiQFjgh_rQ?" title="الوسط الحسابي الاحصاء للصف الثاني الاعدادي الترم الاول حصة 24" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الثالث والعشرون</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/SS9rIeW_b-w?" title="هندسة الصف الثاني الاعدادي  الدرس الاول متوسطات المثلث الترم الاول | حصة 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الرابع والعشرون</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/Q_JK7s4LYL8?" title="تابع متوسطات المثلث للصف الثانى الاعدادى هندسة الترم الاول | حصة 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الخامس والعشرون</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/9RAOQIqX_dM?" title="مراجعة على متوسطات المثلث + عكس نظرية 3 للصف الثانى الاعدادى هندسة الترم الاول حصة 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس السادس والعشرون</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/EhYmUiMV2Yg?" title="متوسطات المثلث حل تمارين الكتاب المدرسي تمارين ( 4 -1 ) للصف الثاني الاعدادي هندسة الترم الاول حصة 4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس السابع والعشرون</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/kcmwnxrI088?" title="المثلث المتساوي الساقين للصف الثانى الاعدادى هندسة الترم الاول حصة 5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+    
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الثامن والعشرون</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/2NSPiYnfsYM?" title="عكس نظرية المثلث متساوي الساقين للصف الثانى الاعدادى هندسة الترم الاول حصة 6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+    
+    <div class="lesson">
+            <h2 class="lesson-title">الدرس التاسع والعشرون</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/v6Q2E_b-9Rg?" title="نتائج على نظريات المثلث المتساوي الساقين للصف الثانى الاعدادى هندسة الترم الاول | حصة 7" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+    <div class="lesson">
+            <h2 class="lesson-title">الدرس الثلاثون</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/zDR15DnWq08?" title="التباين | مسلمات التباين للصف الثانى الاعدادى هندسة الترم الاول حصة 9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+    <div class="lesson">
+            <h2 class="lesson-title">الدرس الواحد وثلاثون</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/-1jauCGiiZI?" title="التباين | المقارنة بين قياسات الزوايا في المثلث للصف الثانى الاعدادى هندسة الترم الاول حصة 10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+    <div class="lesson">
+            <h2 class="lesson-title">الدرس الثاني وثلاثون</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/hM-_fdBFZNM?" title="التباين | المقارنة بين اطوال الاضلاع في المثلث للصف الثانى الاعدادى هندسة الترم الاول حصة 11" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+    <div class="lesson">
+            <h2 class="lesson-title">الدرس الثالث وثلاثون</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/R1fylbWQYJA?" title="متباينة المثلث للصف الثانى الاعدادى هندسة الترم الاول حصة 12" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+         
+    
+    
+
+    <script>
+const validCodes = ['12345', '67890', 'ABCDE', '98765', 'FGHIJ', '54321',
+    '123456'
+];
+    
+        document.getElementById('accessForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const inputCode = document.getElementById('accessCode').value;
+    
+            if (validCodes.includes(inputCode)) {
+                document.getElementById('videoContainer').style.display = 'block';
+                document.getElementById('accessFormContainer').style.display = 'none';
+            } else {
+                document.getElementById('errorMessage').style.display = 'block';
+            }
+        });
+    
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+    
+        document.onkeydown = function(e) {
+            if (e.keyCode == 123 || // Prevent F12
+                (e.ctrlKey && e.shiftKey && e.keyCode == 73) || // Prevent Ctrl+Shift+I
+                (e.ctrlKey && e.shiftKey && e.keyCode == 74) || // Prevent Ctrl+Shift+J
+                (e.ctrlKey && e.keyCode == 85) || // Prevent Ctrl+U
+                (e.ctrlKey && e.keyCode == 83) || // Prevent Ctrl+S
+                (e.ctrlKey && e.keyCode == 67)) { // Prevent Ctrl+C
+                return false;
+            }
+        };
+    
+        document.addEventListener('keydown', function(e) {
+            if (e.key === "PrintScreen") {
+                alert("Screenshots are disabled!");
+                return false;
+            } else if (e.ctrlKey && e.key === "PrintScreen") {
+                alert("Screenshots are disabled!");
+                return false;
+            } else if (e.altKey && e.key === "PrintScreen") {
+                alert("Screenshots are disabled!");
+                return false;
+            }
+        });
+    
+        document.addEventListener('mousedown', function(e) {
+            if (e.button == 2) {
+                e.preventDefault();
+            }
+        });
+    
+        window.addEventListener('popstate', function(e) {
+            history.pushState(null, null, location.href);
+        });
+    
+        window.addEventListener('load', function() {
+            history.pushState(null, null, location.href);
+            window.onpopstate = function() {
+                history.go(1);
+            };
+        });
+    </script>
+    
+    
+</body>
+</html>

@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اللغه العربية</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-N... (التوقيع الرقمي)" crossorigin="anonymous" />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Aref+Ruqaa:wght@400;700&family=Rakkas&family=Reem+Kufi:wght@400..700&display=swap');
+
+        .home-icon {
+            color: #00DBCE; 
+            font-size: 50px; 
+            text-decoration: none; 
+            margin-right: 20px; 
+        }
+
+        body {
+            font-family: "Amiri", serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .header a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .header .home-icon {
+            font-size: 20px;
+            margin-right: 10px;
+        }
+
+        .subject-container {
+            width: 80%;
+            max-width: 800px;
+            margin: 20px auto;
+            background: #cdd5d8;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .lesson {
+            margin: 20px 0;
+        }
+
+        .lesson-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%; 
+            overflow: hidden;
+            max-width: 100%;
+            margin: 0 auto; 
+        }
+
+        .iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0; 
+        }
+
+        #videoContainer {
+            display: none; 
+        }
+
+        .form-container {
+            margin: 20px;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .subject-container {
+                width: 90%; 
+            }
+        }
+
+        @media (max-width: 480px) {
+            .lesson-title {
+                font-size: 20px;
+            }
+        }
+        .form-container input[type="text"] {
+    width: calc(100% - 100px); 
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 50px; 
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    margin: 5px;
+}
+
+.form-container button {
+    width: 100px; 
+    padding: 10px;
+    background-color: #00DBCE;
+    color: #fff;
+    border: none;
+    border-radius: 50px; 
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.form-container button:hover {
+    background-color: #00b3a7; 
+}
+
+
+    </style>
+</head>
+<a href="ishraq.html" class="home-icon">
+    <i class="fa fa-home" aria-hidden="true"></i>
+</a>
+
+<main class="subject-container">
+    <div class="form-container" id="accessFormContainer">
+        <h2>أدخل كودالاشتراك</h2>
+        <form id="accessForm">
+            <input type="text" id="accessCode" placeholder="Enter your code">
+            <button type="submit">إدخال</button>
+        </form>
+        <p id="errorMessage" style="color: red; display: none;">كود الإشتراك غير صحيح. يرجى إعادة المحاولة.</p>
+    </div>
+<body>
+
+    <div id="videoContainer">
+        <h1>لغة عربية</h1>
+    
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الأول</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/n0HEP7J5FlA?" title="لغة عربية تانية إعدادي 2019 | نصائح غالية | تيرم1 - وح1 - در1| الاسكوله" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الثاني</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/lAQuBVBh3wI?" title="لغة عربية تانية إعدادي 2019 | كبرياء طفل | تيرم1 - وح1 - در2| الاسكوله" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div><div class="lesson">
+            <h2 class="lesson-title">الدرس الثالث</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/KovzWtJDoD4?" title="لغة عربية تانية إعدادي 2019 | عهد الطفولة | تيرم1 - وح1 - در3| الاسكوله" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الرابع</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/CbXTfbfFzc4?" title="لغة عربية تانية إعدادي 2019 | الإعراب والبناء-المعرب والمبني من الأسماء| ت1 - وح1 - نحو | الاسكوله" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الخامس</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/7lt7xdXq4AU?" title="لغة عربية تانية إعدادي 2019 | الإعراب والبناء-المعرب والمبني من الأفعال| ت1 - وح1 - نحو | الاسكوله" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس السادس</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/vTrbzPcJ4tw?" title="لغة عربية تانية إعدادي 2019 | لو أنني ضابط شرطة | تيرم1 - وح2 - در1| الاسكوله" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس السابع</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/8lj8hEFy0H0?" title="لغة عربية تانية إعدادي 2019 | من أجل مصر | تيرم1 - وح2 - در2| الاسكوله" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الثامن</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/FzvoKR54G7I?" title="لغة عربية تانية إعدادي 2019 | في حب مصر | تيرم1 - وح2 - در3| الاسكوله" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div><div class="lesson">
+            <h2 class="lesson-title">الدرس التاسع</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/0_ZQUY2U8Iw?" title="لغة عربية تانية إعدادي 2019 | النعــــت | تيرم1 - وح2 - قواعد نحوية | الاسكوله" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس العاشر</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/TYmMeDn_w0Q?" title="لغة عربية تانية إعدادي 2019 | العطـــــف| ت1 - وح2 - قواعد نحوية| الاسكوله" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الحادي عشر</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/TDOgrcG9x-Q?" title="لغة عربية تانية إعدادي 2019 | منتصر ومجاهد | ت1 - وح3 - در 1| الاسكوله" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الثاني عشر</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/tKTJJ-9BP98?" title="لغة عربية تانية إعدادي 2019 | طيار مقاتل مرة أخرى | ت1 - وح3 - در 2 | الاسكوله" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الثالث عشر</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/Uc7lak-Hu00?" title="لغة عربية تانية إعدادي 2019 | نصر أكتوبر العظيم | ت1 - وح3 - در3 | الاسكوله" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الرابع عشر</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/hDBePRcAfXE?" title="لغة عربية تانية إعدادي 2019 | سيناء أرض الفيروز | ت1 - وح3 - در4 | الاسكوله" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الخامس عشر</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/TGyW0AcWwvg?" title="لغة عربية تانية إعدادي 2019 | ذكريات أكتوبر | ت1 - وح3 - در5 | الاسكوله" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس السادس عشر</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/fCP5dz7S1TE?" title="لغة عربية تانية إعدادي 2019 | الحـــــال | تيرم1 - وح3 - قواعد نحوية | الاسكوله" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس السابع عشر</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/0bl36FSVvx8?" title="لغة عربية تانية إعدادي 2019 | التوكيــــــد| ت1 - وح3 - قواعد نحوية| الاسكوله" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الثامن عشر</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/vRXeQQoCbKY?" title="لغة عربية تانية إعدادي 2019 | كفاح شعب مصر - جيش تحرير مصر| تيرم1 - قصة- فصل 1| الاسكوله" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس التاسع عشر</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/qaP6O57zcfQ?" title="لغة عربية تانية إعدادي 2019 | كفاح شعب مصر| تيرم1 - قصة- فصل 2| الاسكوله" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس العشرون</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/0Tkm8nItUM4?" title="لغة عربية تانية إعدادي 2019 | مصر خالدة على مر الزمان | تيرم1 - قصة- فصل 3 جزء 1| الاسكوله" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الواحد والعشرون</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/zPxk09eROx4?" title="لغة عربية تانية إعدادي 2019 | مصر خالدة على مر الزمان | تيرم1 - قصة- فصل 3 جزء 2| الاسكوله" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الثاني والعشرون</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/NNw_x0QJzJ0?" title="لغة عربية تانية إعدادي 2019 | مصر الثائرة | تيرم1 - قصة- فصل4 جزء 1| الاسكوله" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الثالث والعشرون</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/m1ssYwsFkE0?" title="لغة عربية تانية إعدادي 2019 | مصر الثائرة | تيرم1 - قصة- فصل4 جزء 2| الاسكوله" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الرابع والعشرون</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/YS6itiPPr60?" title="لغة عربية تانية إعدادي 2019 | إرادة الشعب وعزل الوالي التركي خورشيد | تيرم1 - قصة- فصل5| الاسكوله" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+        
+        <div class="lesson">
+            <h2 class="lesson-title">الدرس الخامس والعشرون</h2>
+            <div class="iframe-container">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/8456WnsEtU8?" title="لغة عربية تانية إعدادي 2019 | شعب رشيد وحملة فريزر 1807م | تيرم1 - قصة- فصل6 | الاسكوله" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        </div>
+
+    <script>
+const validCodes = ['12345', '67890', 'ABCDE', '98765', 'FGHIJ', '54321',
+    '123456'
+];
+    
+        document.getElementById('accessForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const inputCode = document.getElementById('accessCode').value;
+    
+            if (validCodes.includes(inputCode)) {
+                document.getElementById('videoContainer').style.display = 'block';
+                document.getElementById('accessFormContainer').style.display = 'none';
+            } else {
+                document.getElementById('errorMessage').style.display = 'block';
+            }
+        });
+    
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+    
+        document.onkeydown = function(e) {
+            if (e.keyCode == 123 || // Prevent F12
+                (e.ctrlKey && e.shiftKey && e.keyCode == 73) || // Prevent Ctrl+Shift+I
+                (e.ctrlKey && e.shiftKey && e.keyCode == 74) || // Prevent Ctrl+Shift+J
+                (e.ctrlKey && e.keyCode == 85) || // Prevent Ctrl+U
+                (e.ctrlKey && e.keyCode == 83) || // Prevent Ctrl+S
+                (e.ctrlKey && e.keyCode == 67)) { // Prevent Ctrl+C
+                return false;
+            }
+        };
+    
+        document.addEventListener('keydown', function(e) {
+            if (e.key === "PrintScreen") {
+                alert("Screenshots are disabled!");
+                return false;
+            } else if (e.ctrlKey && e.key === "PrintScreen") {
+                alert("Screenshots are disabled!");
+                return false;
+            } else if (e.altKey && e.key === "PrintScreen") {
+                alert("Screenshots are disabled!");
+                return false;
+            }
+        });
+    
+        document.addEventListener('mousedown', function(e) {
+            if (e.button == 2) {
+                e.preventDefault();
+            }
+        });
+    
+        window.addEventListener('popstate', function(e) {
+            history.pushState(null, null, location.href);
+        });
+    
+        window.addEventListener('load', function() {
+            history.pushState(null, null, location.href);
+            window.onpopstate = function() {
+                history.go(1);
+            };
+        });
+    </script>
+    
+    
+</body>
+</html>

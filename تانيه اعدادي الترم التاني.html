@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-N... (التوقيع الرقمي)" crossorigin="anonymous" />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap');
+        </style>
+    <title>الصف الثاني الإعدادي - الترم الثاني</title>
+    <style>
+        body {
+            font-family: "Noto Kufi Arabic", sans-serif;
+            text-align: center;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px;
+            border: none;
+            color: white;
+            background-color: #00DBCE;
+            cursor: pointer;
+            transition: transform 0.2s, background-color 0.3s;
+            border-radius: 12px;
+            text-decoration: none; /* لإزالة خط تحت النص */
+        }
+        .button:hover {
+            transform: scale(1.1);
+            background-color: #00DBCE;
+        }
+        .button:active {
+            transform: scale(0.9);
+            background-color: #00DBCE;
+        }
+        .math {
+            border-radius: 20px;
+        }
+        .english {
+            clip-path: polygon(10% 0%, 100% 0%, 100% 90%, 10% 100%);
+        }
+        .social-studies {
+            border-radius: 25px 50px;
+        }
+        .science {
+            background-color: #00DBCE;
+            transform: rotate(-5deg);
+        }
+        .arabic {
+            background-color: #00DBCE;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .home-icon {
+             color: #00DBCE; /* لون الأيقونة المطلوب */
+             font-size: 50px; /* حجم الأيقونة */
+              text-decoration: none; /* إزالة تأثير التحتية */
+              margin-right: 20px; /* التباعد من الحافة اليمنى للرأس */
+        }
+
+    </style>
+</head>
+<body>
+    <a href="ishraq.html" class="home-icon">
+        <i class="fa fa-home" aria-hidden="true"></i>
+    </a>
+    <h1>الصف الثاني الإعدادي - الترم الثاني</h1>
+    <a href="عربي_تانيه اعدادي ترم ثاني.html" class="button arabic">اللغة العربية</a>
+    <a href="رياضيات_تانيه اعدادي ترم ثاني.html" class="button math">رياضيات</a>
+    <a href="انجليزي_تانيه اعدادي ترم ثاني.html" class="button english">اللغة الإنجليزية</a>
+    <a href="دراسات اجتماعيه_تانيه اعدادي ترم ثاني.html" class="button social-studies">الدراسات الاجتماعية</a>
+    <a href="علوم_تانيه اعدادي ترم ثاني.html" class="button science">العلوم</a>
+
+    <script>
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+
+        document.onkeydown = function(e) {
+            if (e.keyCode == 123 || // Prevent F12
+                (e.ctrlKey && e.shiftKey && e.keyCode == 73) || // Prevent Ctrl+Shift+I
+                (e.ctrlKey && e.shiftKey && e.keyCode == 74) || // Prevent Ctrl+Shift+J
+                (e.ctrlKey && e.keyCode == 85) || // Prevent Ctrl+U
+                (e.ctrlKey && e.keyCode == 83) || // Prevent Ctrl+S
+                (e.ctrlKey && e.keyCode == 67)) { // Prevent Ctrl+C
+                return false;
+            }
+        };
+
+        document.addEventListener('keydown', function(e) {
+            if (e.key === "PrintScreen") {
+                alert("Screenshots are disabled!");
+                return false;
+            } else if (e.ctrlKey && e.key === "PrintScreen") {
+                alert("Screenshots are disabled!");
+                return false;
+            } else if (e.altKey && e.key === "PrintScreen") {
+                alert("Screenshots are disabled!");
+                return false;
+            }
+        });
+
+        document.addEventListener('mousedown', function(e) {
+            if (e.button == 2) {
+                e.preventDefault();
+            }
+        });
+
+        // Disable navigation using browser buttons (back, forward)
+        window.addEventListener('popstate', function(e) {
+            history.pushState(null, null, location.href);
+        });
+        
+        window.addEventListener('load', function() {
+            history.pushState(null, null, location.href);
+            window.onpopstate = function() {
+                history.go(1);
+            };
+        });
+    </script>
+</body>
+</html>

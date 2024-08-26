@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إسأل في المنهج</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Changa:wght@200..800&display=swap');
+        body {
+            font-family: "Changa", sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            direction: rtl;
+            text-align: right;
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 80px auto 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+            border-bottom: 2px solid #00DBCE;
+        }
+        textarea {
+            resize: vertical;
+            height: 100px;
+        }
+        .button-container {
+            text-align: center;
+        }
+        button {
+            background-color: #00DBCE;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;       
+            transform: scale(1.1);
+            transition: transform 0.2s, background-color 0.3s;
+        }
+        button:hover {
+            background-color: #064d48;
+        }
+        .note {
+            font-size: 16px;
+            color: #ff0000;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .header {
+            background-color: #ffffff;
+            color: #000000;
+            padding: 10px 0;
+            text-align: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        .header a {
+            color: #000000;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        .header .home-icon {
+            font-size: 20px;
+            margin-right: 10px;
+        }
+        .home-link {
+            font-size: 16px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="ishraq.html" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="ishraq.html" class="home-link">العودة إلى الصفحة الرئيسية</a>
+    </div>
+
+    <div class="container">
+        <h1>إسأل في المنهج</h1>
+        <div class="note">
+            نعتذر عن الإزعاج، هناك مشكلة فنية حاليًا. سيتم تشغيل الصفحة قريبًا.
+        </div>
+        
+        <form>
+            <label for="name">اسمك:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="grade">سنتك الدراسية:</label>
+            <select id="grade" name="grade" required>
+                <option value="first">الأول الإعدادي</option>
+                <option value="second">الثاني الإعدادي</option>
+                <option value="third">الثالث الإعدادي</option>
+            </select>
+            
+            <label for="term">الترم:</label>
+            <select id="term" name="term" required>
+                <option value="first">الترم الأول</option>
+                <option value="second">الترم الثاني</option>
+            </select>
+            
+            <label for="email">بريدك الإلكتروني:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">السؤال:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <label for="subscription">هل أنت مشترك:</label>
+            <select id="subscription" name="subscription" required>
+                <option value="yes">نعم.مشترك</option>
+                <option value="no">لا.لست مشترك</option>
+            </select>
+
+            <label for="package">اختر الباقة:</label>
+            <select id="package" name="package" required>
+                <option value="termly">باقة الترم</option>
+                <option value="yearly">الباقة السنوية</option>
+            </select>
+
+            <label for="code">كود الاشتراك:</label>
+            <input type="text" id="code" name="code">
+            
+            <label for="whatsapp">رقم الواتس اب:</label>
+            <input type="text" id="whatsapp" name="whatsapp" required>
+
+            <div class="button-container">
+                <button type="submit">إرسال</button>
+            </div>
+            <div class="note">
+                إذا لم تكن مشتركًا ولا تملك كود الاشتراك او كنت مشترك في الباقة الشهرية، فلن يتم الرد عليك.
+            </div>
+        </form>
+    </div>
+</body>
+</html>
